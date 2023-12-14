@@ -19,8 +19,8 @@ app.use(express.json())
 
 app.use("/user",signupData)
 
-app.listen("10000",(err) => {
+app.listen("3000",(err) => {
    if(err) return  err
-   console.log("Server is running on 10000");
+   console.log("Server is running on 3000");
 })
 // v18.17.1
